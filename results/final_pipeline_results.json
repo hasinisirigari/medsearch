@@ -1,0 +1,13 @@
+{
+  "method": "Full Pipeline (BM25 + BioBERT Fusion + Cross-Encoder)",
+  "components": {
+    "bm25": "rank-bm25 with stopword removal",
+    "dense": "pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb",
+    "cross_encoder": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "fusion_alpha": 0.6
+  },
+  "metrics": {
+    "ndcg@10": 0.6973982588095378,
+    "mrr@10": 0.92
+  }
+}

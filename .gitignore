@@ -1,0 +1,12 @@
+﻿venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/embeddings.npy
+data/embeddings_checkpoint/
+data/trec-covid/
+data/corpus.parquet
+data/queries.parquet
+data/qrels.parquet
+models/faiss_index.bin
+models/bm25_index.pkl

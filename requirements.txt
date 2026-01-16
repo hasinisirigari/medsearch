@@ -1,0 +1,17 @@
+torch
+transformers
+sentence-transformers
+faiss-cpu
+rank-bm25
+pandas
+numpy
+scikit-learn
+fastapi
+uvicorn
+datasets
+pytrec-eval-terrier
+tqdm
+pyarrow
+jupyter
+orjson
+python-dotenv
